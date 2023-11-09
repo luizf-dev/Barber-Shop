@@ -9,8 +9,9 @@
     --bg-color: #1f1f21;
     --text-color: #fff;
     --main-color: #ffae00;
+    --small-font: 1.1rem;
+    --medium-font: 4rem;
     --big-font: 7rem;
-    --p-font: 1.1rem;
 }
 
 body{
@@ -27,28 +28,21 @@ header{
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 32px 15%;
-    background: transparent;
-    transition: all ease .45s;
+    background: #2d2d2d;
 }
 
-.logo{
-    color: var(--text-color);
-    font-size: 41px;
-    font-weight: 600;
-}
-
-.logo span{
+span{
     color: var(--main-color);
 }
 
 .navbar{
-    display: flex;    
+    display: flex;  
+    flex-wrap: wrap;  
 }
 
 .navbar a{
-    font-size: var(--p-font);
+    font-size: var(--small-font);
     font-weight: 500;
     color: var(--text-color);
     margin: 0 25px;
@@ -63,11 +57,214 @@ header{
     color: var(--main-color);
 }
 
+section{
+    padding: 0 15%;
+}
+
+/** Home*/
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.home-img{
+    width: 800px;
+    height: 450px;
+    padding: 25px;
+}
+
+.home-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.home-title span{
+    color: var(--text-color);
+    font-weight: 900;
+    font-size: 30px;    
+}
+
+.home-title h1{
+    font-size: var(--medium-font);
+    margin: 23px 0;
+}
+
+.home-title p{
+    font-size: var(--small-font);
+    font-weight: 400;
+    color: #c3c3c3;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 14px 34px;
+    background: var(--main-color);
+    color: var(--text-color);
+    border: 2px solid var(--main-color);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.6s ease-in-out;
+}
+
+.btn:hover{
+    transform: translateY(5px);
+    background: transparent;
+    color: var(--main-color);
+}
+
+.two{
+    background: #141414;
+    border: 2px solid #141414;
+    color: var(--text-color);
+    margin-left: 25px;
+}
+
+.two:hover{
+    color: #141414;
+    background: var(--main-color);
+    border: 2px solid var(--text-color);
+}
+
+/**Sobre*/
+
+.sobre{
+    background: #fff;
+    height: auto;
+    padding: 20px;
+}
+
+.titles{
+    font-size: 2rem;
+    color: var(--bg-color);
+    text-align: center;
+    border-bottom: 3px solid var(--main-color);
+    width: 300px;
+    margin: 0px auto;
+}
 
 
+@media (max-width: 1850px) {
 
-@media (max-width: 575.98px) {
+    header{
+        padding: 15px 8%;
+        transition: .2s;
+    }
 
-
+    section{
+        padding: 0 8%;
+        transition: .2s;
+    }
 
   }
+
+  @media (max-width: 1370px) {
+
+    header{
+        padding: 15px 4%;
+        transition: .2s;
+    }
+
+    section{
+        padding: 0 4%;
+        transition: .2s;
+    }
+
+    :root{
+        --big-font: 5.5rem;
+        --small-font: 1rem;
+        transition: .2s;
+
+    }
+    
+}
+
+@media (max-width: 1020px){
+
+    .navbar a{
+        margin: 0 15px;
+    }
+
+    :root{
+        --big-font: 5rem;
+        --small-font: 1rem;
+        transition: .2s;
+    }
+}
+
+@media (max-width: 950px ){
+
+    section{
+        padding: 70px 4%;
+    }
+
+    header{
+        padding: 11px 4%;
+        background: #2d2d2d;
+    }
+
+    .home{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .home-title{
+        order: 2;
+    }
+
+    .home-img{
+        margin: auto;
+        height: auto;
+        width: auto;
+    }
+
+    .home-img img{
+        max-width: 450px;
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+@media (max-width: 850px){
+
+    
+
+    
+
+}
+
+@media(max-width: 500px){
+
+    :root{
+        --big-font: 4rem;
+        --small-font: 15px;
+        transition: .2s;
+    }
+
+    .btn{
+        padding: 9px 28px;
+    }
+
+}
+
+@media(max-width: 350px){
+
+    
+
+    .navbar a{
+        font-size: var(--small-font);
+        margin: 0 25px;
+    }
+}
+
+
