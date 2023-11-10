@@ -1,4 +1,4 @@
-# CloudWebMasters
+# Barber Shop
 Projeto fictício de um site institucional para a PTI  de Web Standards do Senac EAD.
 
 # Proposta do projeto.
