@@ -5,39 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Shop</title>
     <link rel="shortcut icon" href="public/assets/images/logo.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="public/assets/css/index.css">
+    <link rel="stylesheet" href="public/assets/css/header.css">
+    <link rel="stylesheet" href="public/assets/css/home.css">
+    <link rel="stylesheet" href="public/assets/css/sobre.css">   
 
 </head>
 <body>
     <!--*header-->
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="ckeckbtn">menu           
-        </label>
-
-        <label class="logo">Logo</label>
-
-
+    <header>
+        <img class="logo" src="/public/assets/images/logo.png" alt="">
         <ul class="navbar">
-            <li><a href="" class="active">Home</a></li>
-            <li><a href="">Sobre</a></li>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#sobre">Sobre</a></li>
             <li><a href="">Serviços</a></li>
             <li><a href="">Portfólio</a></li>
             <li><a href="">Contato</a></li>
         </ul>
-    </nav>
+    </header>
 
     <!--*home-->
-    <section class="home">
+    <section id="home" class="home">
         <div class="home-title">
             <span>Seja bem-vindo à,  </span>
             <h1><span></span>  Barber Shop</h1>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Et ipsa fugit optio mollitia blanditiis provident praesentium,
-                libero, architecto nesciunt deserunt debitis aspernatur sed. 
-                Suscipit numquam quas eius ea odit facilis.
+            <p style="font-size:1.4em; color: #ffae00;">
+                Seja muito bem-vindo à Barber Shop, onde a arte da barbearia encontra o seu estilo.<br> Nosso compromisso é proporcionar uma experiência única de cuidado com a aparência, combinando tradição e modernidade para realçar a sua melhor versão.
             </p>
             <div class="main-btn">
                 <a href="" class="btn">Conheça nosso espaço</a>
@@ -51,10 +44,19 @@
 
     </section>
 
-    <!--*sobre-->
-    <section class="sobre">
-        <h1  class="titles">Sobre Nós</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rem doloribus perspiciatis qui recusandae perferendis dicta. Magnam minima impedit eveniet perspiciatis tenetur, tempore, at temporibus accusamus id fuga, esse cupiditate?</p>
+    <!--*seção sobre nós-->
+    <section id="sobre" class="sobre">
+        <h1 class="title">Sobre Nós</h1>
+        <div class="content-container">
+            <div class="text-sobre">
+                <p>Na Barber Shop, nossa missão é fornecer uma experiência de barbearia excepcional que vai além de apenas cortes de cabelo e barbas. Estamos empenhados em ajudar nossos clientes a alcançar a melhor versão de si mesmos, proporcionando serviços de alta qualidade em um ambiente acolhedor e descontraído. Queremos que cada visita à nossa barbearia seja uma experiência memorável, onde os clientes se sintam bem cuidados e confiantes.</p><br>
+                <p>Nossa visão é ser reconhecidos como a barbearia de referência em nosso bairro e além. Queremos ser conhecidos não apenas pela excelência em serviços de barbearia, mas também pela nossa paixão por estilo e pela nossa contribuição positiva para a comunidade. Buscamos expandir nossos serviços e alcançar um público diversificado, mantendo a qualidade e o atendimento excepcionais que nossos clientes merecem.</p>
+            </div>
+
+            <div class="sobre-img">
+                <img  src="public/assets/images/espaco.jpeg" alt="banner-sobre">
+            </div>
+        </div>
     </section>
 
 
