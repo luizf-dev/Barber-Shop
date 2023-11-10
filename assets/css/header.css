@@ -1,12 +1,4 @@
-:root{
-    --bg-color: #1f1f21;
-    --text-color: #fff;
-    --main-color: #ffae00;
-    --small-font: 1.1rem;
-    --medium-font: 4rem;
-    --big-font: 7rem;
-    --font-links: 2rem;
-}
+@import 'variaveis.css';
 
 header{
     position: fixed;

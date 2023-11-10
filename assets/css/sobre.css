@@ -1,11 +1,4 @@
-:root{
-    --bg-color: #1f1f21;
-    --text-color: #fff;
-    --main-color: #ffae00;
-    --small-font: 1.1rem;
-    --medium-font: 4rem;
-    --big-font: 7rem;
-}
+@import 'variaveis.css';
 
 .sobre{
     background: #fff;
@@ -18,13 +11,13 @@
     gap: 50px;
 }
 
-.title{
+.title-sobre{
     font-size: 2rem;
     color: var(--bg-color);
     text-align: center;
     border-bottom: 3px solid var(--main-color);
     width: 300px;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .content-container {
