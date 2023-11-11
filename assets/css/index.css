@@ -1,4 +1,5 @@
 @import 'variaveis.css';
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Metal+Mania&family=New+Rocker&family=Permanent+Marker&display=swap');
 
 *{
     margin: 0;
@@ -15,7 +16,7 @@ body{
     background: var(--bg-color);
     color: var(--text-color);
     overflow-x: hidden;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: 'Metal Mania', cursive;
 }
 
 section{
