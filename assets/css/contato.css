@@ -2,7 +2,7 @@
 
 
 .contato{
-    background: var(--bg-color);
+    background: rgb(84, 78, 78);
     height: auto;
     padding: 15px;
     display: flex;
