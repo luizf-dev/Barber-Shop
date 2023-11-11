@@ -91,11 +91,15 @@ span{
 
     header{       
         justify-content:space-evenly;
-        font-size: 2em;
+       /* font-size: 1em;*/
     }    
 
     .navbar a{
         font-size: var(--small-font);
+    }
+
+    .logo{
+        width: 25px;
     }
     
     
