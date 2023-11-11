@@ -31,11 +31,11 @@ span{
     font-weight: 500;
     color: var(--text-color);
     margin: 0 25px;
-    transition: all ease .50s;
 }
 
 .navbar a:hover{
     color: var(--main-color);
+    font-weight: 900;
 }
 
 .navbar a.active{

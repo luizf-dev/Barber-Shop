@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barber Shop</title>
-    <link rel="shortcut icon" href="assets/images/logo-transparent.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/logotipo.png" type="image/x-icon">
+    <!--? Font Awesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <!--? Folhas de estilo-->
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="stylesheet" href="assets/css/header.css">
     <link rel="stylesheet" href="assets/css/home.css">
     <link rel="stylesheet" href="assets/css/sobre.css">   
     <link rel="stylesheet" href="assets/css/servicos.css">
+    <link rel="stylesheet" href="assets/css/valores.css">
+    <link rel="stylesheet" href="assets/css/contato.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 <body>
     <!--*header-->
@@ -19,22 +25,21 @@
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#servicos">Serviços</a></li>
-            <li><a href="">Portfólio</a></li>
-            <li><a href="">Contato</a></li>
+            <li><a href="#valores">Valores</a></li>
+            <li><a href="#contato">Contato</a></li>
         </ul>
     </header>
 
     <!--*home-->
     <section id="home" class="home">
-        <div class="home-title">
-            <span>Bem-vindo à,  </span>
-            <h1><span></span>  Barber Shop</h1>
-            <p style="font-size:1.4em; color: #ffae00;">
+        <div class="home-title">            
+            <h1><span>B</span>arber Shop</h1>
+            <p>
                 Onde a arte da barbearia encontra o seu estilo.<br> Nosso compromisso é proporcionar uma experiência única de cuidado com a aparência, combinando tradição e modernidade para realçar a sua melhor versão.
             </p>
-            <div class="main-btn">
-                <a href="" class="btn">Conheça nosso espaço</a>
-                <a href="" class="btn two">Contato</a>
+            <div class="div-btn">
+                <a href="#servicos" class="btn">Conheça nossos serviços</a>
+                <a href="" class="btn btn-contato">Contato</a>
             </div>
         </div>
 
@@ -70,7 +75,7 @@
             <div class="card">
                 <h2 class="card-title">Corte de Cabelo Clássico</h2>
                 <div class="img-cards">
-                    <img src="assets/images/card-01.jpg" alt="serviço 1">
+                    <img src="assets/images/corte-cabelo.jpg" alt="serviço 1">
                 </div>
                 <div class="card-content">
                     <p class="card-text">Um serviço de corte de cabelo tradicional que destaca a habilidade e precisão do barbeiro.</p>
@@ -81,7 +86,7 @@
             <div class="card">
                 <h2 class="card-title">Barba Estilizada</h2>
                 <div class="img-cards">
-                    <img src="assets/images/card-02.jpg" alt="serviço 1">
+                    <img src="assets/images/barba.jpg" alt="serviço 2">
                 </div>
                 <div class="card-content">
                     <p class="card-text">Um serviço dedicado a esculpir e estilizar a barba de acordo com as preferências individuais dos clientes.</p>
@@ -92,7 +97,7 @@
             <div class="card">
                 <h2 class="card-title">Tratamento Capilar VIP</h2>
                 <div class="img-cards">
-                    <img src="assets/images/espaco.jpeg" alt="serviço 1">
+                    <img src="assets/images/tratamento.avif" alt="serviço 3">
                 </div>
                 <div class="card-content">                    
                     <p class="card-text">Um serviço premium que inclui corte, lavagem, tratamento e finalização para um cuidado completo com os cabelos.</p>
@@ -101,42 +106,88 @@
 
             <!--* card 4 -->
             <div class="card">
-                <h2 class="card-title">Barba Completa + Corte de Cabelo</h2>
+                <h2 class="card-title">Barba + Corte de Cabelo</h2>
                 <div class="img-cards">
-                    <img src="assets/images/espaco.jpeg" alt="serviço 1">
+                    <img src="assets/images/barba-cabelo.jpg" alt="serviço 4">
                 </div>
                 <div class="card-content">                    
                     <p class="card-text">Uma opção abrangente que oferece tanto o corte de cabelo quanto o tratamento da barba em uma única sessão.</p>
                 </div>
             </div>
 
-            <!--* card 3 -->
+            <!--* card 5 -->
             <div class="card">
-                <h2 class="card-title">Design de Sobrancelhas Masculino</h2>
+                <h2 class="card-title">Design de Sobrancelhas</h2>
                 <div class="img-cards">
-                    <img src="assets/images/espaco.jpeg" alt="serviço 1">
+                    <img src="assets/images/design-sombrancelhas.png" alt="serviço 5">
                 </div>
                 <div class="card-content">                    
                     <p class="card-text">Um serviço especializado para aprimorar a aparência das sobrancelhas, adaptado especificamente para homens.</p>
                 </div>
             </div>
 
-            <!--* card 3 -->
+            <!--* card 6 -->
             <div class="card">
                 <h2 class="card-title">Massagem Capilar Relaxante</h2>
                 <div class="img-cards">
-                    <img src="assets/images/espaco.jpeg" alt="serviço 1">
+                    <img src="assets/images/massagem-capilar.jpeg" alt="serviço 6">
                 </div>
                 <div class="card-content">                    
                     <p class="card-text">Uma experiência relaxante que inclui uma massagem suave no couro cabeludo, proporcionando um momento de relaxamento durante o tratamento capilar.</p>
                 </div>
             </div>
 
-        </div>
-        
+        </div>        
     </section>
 
+    <!--* seção valores-->
+    <section id="valores" class="valores">
+        <h1 class="title-valores">Valores</h1>
+            <div class="div-valores">
+                <h2>Corte de Cabelo Clássico-----------------<span>R$ 35,00</span></h2>
+                <h2>Barba Estilizada----------------------------<span>R$ 30,00</span></h2>
+                <h2>Tratamento Capilar VIP------------------<span>R$ 65,00</span></h2>
+                <h2>Barba + Corte de Cabelo-----------------<span>R$ 60,00</span></h2>
+                <h2>Design de Sobrancelhas-------------------<span>R$ 25,00</span></h2>
+                <h2>Massagem Capilar Relaxante------------<span>R$ 115,00</span></h2>
+            </div>
+    </section>
 
+    <!--*seção contato-->
+    <section id="contato" class="contato">
+        <h1 class="title-contato">Contato</h1>
+        <div class="content-container">
+            <div class="div-form-contato">
+                <h3 class="title-form">Entre em contato conosco! </h3>
+                <form action="">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Digite seu email">
+                    <label for="nome">Telefone</label>
+                    <input type="number" name="telefone" id="telefone" placeholder="Digite seu telefone">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                    <button class="btn-form" type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="div-redes-sociais">
+                <h2><i class="fas fa-map-marker-alt"></i> Endereço:</h2>
+                <p>Rua Almirante das Neves</p>
+                <p>N° 2654</p>
+                <p>São Paulo- SP</p>
+                <a href=""><i class="fab fa-instagram fa-3x"></i></a>
+                <a href=""><i class="fab fa-facebook-square fa-3x"></i></a>
+                <a href=""><i class="fab fa-linkedin fa-3x"></i></a>            
+            </div>
+        </div>
+    </section>
+
+    <!--*seção footer-->
+    <footer class="footer">
+        <h6>&copy; Developed by <a href="https://github.com/luizf-dev">Luiz F. Developer</a></h6>
+        
+    </footer>
  
 </body>
 </html>

@@ -1,0 +1,21 @@
+@import 'variaveis.css';
+
+
+footer{
+    height: auto;
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    color: var(--main-color);
+    font-size: 1.8em;
+}
+
+footer a{
+    color: #fff;
+    font-size: 1.1em;
+}
+
+footer a:hover{
+    font-style: italic;
+    font-size: 1.2em;
+}

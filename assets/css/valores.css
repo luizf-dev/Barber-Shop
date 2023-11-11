@@ -1,0 +1,53 @@
+@import 'variaveis.css';
+
+
+.valores{
+    background: #fff;
+    height: 100vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 50px;
+}
+
+.title-valores{
+    font-size: 2rem;
+    color: var(--bg-color);
+    text-align: center;
+    border-bottom: 3px solid var(--main-color);
+    width: 300px;
+    margin-top: 91px;
+}
+
+  .div-valores {
+    padding: 10px;
+    background-color: var(--bg-color);
+    box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .div-valores h2, .div-valores span{
+    padding: 4px;
+  }
+
+  @media (max-width: 768px){
+
+    .div-valores {
+        background-color: var(--bg-color);
+        box-shadow: 5px 5px 2px rgba(0, 0, 0, 0.9);
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .div-valores h2, .div-valores span{
+        padding: 3px;
+        margin-bottom: 15px;
+        font-size: 0.9em;
+    }
+
+
+  }
